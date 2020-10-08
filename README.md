@@ -1,7 +1,6 @@
 # WitsLearn
 
-WitsLearn is E-learning  application that grants accessibility to all learning tools of both scientific and non-scientific courses.
-
+ Spotify Clone App using Flutter is a Front end of the app which means we are using  API or adding a real music player on it
 ## Badges
 
 ## Screenshots
@@ -12,16 +11,13 @@ WitsLearn is E-learning  application that grants accessibility to all learning t
 * Ensure that adb (from the Android platform tools) is in your path (e.g., that which adb prints sensible output).
 * Clone the project  by running
 ```
-git clone https://gitlab.com/porkhub/apps-flutter.git
+git clone https://github.com/isaacpitwa/Spotify-Clone-App.git
 ```
-or
-```
-git clone git@gitlab.com:porkhub/apps-flutter.git
-```
+
 * Move into the project directory
 
 ```
-cd witslearn
+cd Spotify-Clone-App
 
  ```
 
@@ -31,7 +27,7 @@ cd witslearn
 flutter packages get
 ```
 
-* Now you can run WitsLearn on your computer to a connected device using
+* Now you can run Spotify Clone App  on your computer to a connected device using
 
 ```
 flutter run

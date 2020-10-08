@@ -11,7 +11,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'WitsLearn',
+      debugShowCheckedModeBanner: false,
+      title: 'Spotify',
       theme: themeData,
       home: HomeScreen(),
         onGenerateRoute: Router.generateRoute

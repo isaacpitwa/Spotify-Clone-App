@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Spotify',
+      title: 'Spotify Clone App',
       theme: themeData,
       home: HomeScreen(),
         onGenerateRoute: Router.generateRoute

@@ -15,12 +15,12 @@ class AlbumWidget extends StatelessWidget {
             ClipRRect(
               borderRadius: BorderRadius.circular(12.0),
               child: Container(
-                  height: 140.0,
+                  height: 138.0,
                   width: 140.0,
                   child: Image.network(coverUrl)
               ),
             ),
-            SizedBox(height: 12.0,),
+            SizedBox(height: 8.0,),
             Text(
               coverName,
               style: TextStyle(
@@ -29,7 +29,7 @@ class AlbumWidget extends StatelessWidget {
                   fontSize: 22.0
               ),
             ),
-            SizedBox(height: 12.0,),
+            SizedBox(height: 8.0,),
             Text(
               singerName,
               style: TextStyle(

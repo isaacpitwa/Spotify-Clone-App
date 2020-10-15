@@ -42,6 +42,9 @@ class HomeContent extends StatelessWidget {
                 ],
               ),
             ),
+            SizedBox(
+              height: 2.0,
+            ),
             Text(
               "New Music",
               style: TextStyle(

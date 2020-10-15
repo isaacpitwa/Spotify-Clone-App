@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:witslearn/ui/screens/homeContent/home_content.dart';
+import 'package:witslearn/ui/screens/playlist/playlist_screen.dart';
 import 'package:witslearn/ui/screens/search/search_screen.dart';
 import 'package:witslearn/ui/util/styles.dart';
 
@@ -13,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final tabs = [
     HomeContent(),
     SearchScreen(),
-    Text('PlayList Page'),
+    PlaylistScreen(),
     Text('Profile Page'),
   ];
 

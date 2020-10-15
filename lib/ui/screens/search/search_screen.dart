@@ -14,7 +14,7 @@ class SearchScreen extends StatelessWidget {
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 48.0,
+                    fontSize: 36.0,
                   ),
                 ),
               ),
@@ -24,6 +24,7 @@ class SearchScreen extends StatelessWidget {
                   textAlign: TextAlign.center,
                   decoration: InputDecoration(
                     fillColor: Colors.white,
+
                     prefixIcon: Icon(Icons.search,color: Colors.black,size: 28.0,),
                     filled: true,
                     border: InputBorder.none,
@@ -34,7 +35,8 @@ class SearchScreen extends StatelessWidget {
               Expanded(
                 child: GridView.count(
                   primary: false,
-                  padding: const EdgeInsets.all(20),
+                  physics: BouncingScrollPhysics(),
+                  padding: const EdgeInsets.all(16),
                   crossAxisSpacing: 10,
                   mainAxisSpacing: 10,
                   crossAxisCount: 2,

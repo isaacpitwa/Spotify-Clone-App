@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:witslearn/ui/screens/homeContent/home_content.dart';
+import 'package:witslearn/ui/screens/search/search_screen.dart';
 import 'package:witslearn/ui/util/styles.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -11,7 +12,7 @@ class _HomeScreenState extends State<HomeScreen> {
   int _courentTab = 0;
   final tabs = [
     HomeContent(),
-    Text('Search Page'),
+    SearchScreen(),
     Text('PlayList Page'),
     Text('Profile Page'),
   ];

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:witslearn/ui/screens/playlist/widgets/playlist_widget.dart';
 
 class PlaylistScreen extends StatelessWidget {
   List<String> CoverList =[
@@ -12,6 +13,36 @@ class PlaylistScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  ;
+    return Container(
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal:12.0,vertical: 35.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: <Widget>[
+            Text(
+              "Your Favorite Music",
+              style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 28.0
+              ),
+            ),
+            SizedBox(height: 20.0,),
+            Expanded(
+              child: ListView(
+                children: <Widget>[
+                  PlaylistWidget(coverUrl:CoverList[0], albumTitle: "AlbumTitle",singerName: "SingerName",),
+                  PlaylistWidget(coverUrl:CoverList[1], albumTitle: "AlbumTitle",singerName: "SingerName",),
+                  PlaylistWidget(coverUrl:CoverList[2], albumTitle: "AlbumTitle",singerName: "SingerName",),
+                  PlaylistWidget(coverUrl:CoverList[3], albumTitle: "AlbumTitle",singerName: "SingerName",),
+                  PlaylistWidget(coverUrl:CoverList[4], albumTitle: "AlbumTitle",singerName: "SingerName",),
+                  PlaylistWidget(coverUrl:CoverList[5], albumTitle: "AlbumTitle",singerName: "SingerName",),
+                ],
+              ),
+            )
+          ],
+        ),
+      ),
+    );
   }
 }

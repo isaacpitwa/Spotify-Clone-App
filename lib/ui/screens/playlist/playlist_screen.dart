@@ -30,6 +30,7 @@ class PlaylistScreen extends StatelessWidget {
             SizedBox(height: 20.0,),
             Expanded(
               child: ListView(
+                physics: BouncingScrollPhysics(),
                 children: <Widget>[
                   PlaylistWidget(coverUrl:CoverList[0], albumTitle: "AlbumTitle",singerName: "SingerName",),
                   PlaylistWidget(coverUrl:CoverList[1], albumTitle: "AlbumTitle",singerName: "SingerName",),

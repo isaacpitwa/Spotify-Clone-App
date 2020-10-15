@@ -29,7 +29,7 @@ class PlaylistWidget extends StatelessWidget {
                       albumTitle,
                       style: TextStyle(
                           color: Colors.white,
-                          fontSize: 28.0,
+                          fontSize: 18.0,
                           fontWeight: FontWeight.w800
                       ),
                     ),
@@ -38,7 +38,7 @@ class PlaylistWidget extends StatelessWidget {
                       singerName,
                       style: TextStyle(
                           color: Colors.white,
-                          fontSize: 20.0,
+                          fontSize: 16.0,
                           fontWeight: FontWeight.w300
                       ),
                     )

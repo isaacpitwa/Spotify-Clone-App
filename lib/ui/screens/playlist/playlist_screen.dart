@@ -24,7 +24,7 @@ class PlaylistScreen extends StatelessWidget {
               "Your Favorite Music",
               style: TextStyle(
                   color: Colors.white,
-                  fontSize: 28.0
+                  fontSize: 21.0
               ),
             ),
             SizedBox(height: 20.0,),

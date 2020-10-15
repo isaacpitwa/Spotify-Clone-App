@@ -14,7 +14,7 @@ class SearchScreen extends StatelessWidget {
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 36.0,
+                    fontSize: 24.0,
                   ),
                 ),
               ),
@@ -47,7 +47,7 @@ class SearchScreen extends StatelessWidget {
                         padding: const EdgeInsets.symmetric(vertical: 12.0,horizontal: 12.0),
                         child: const Text("Pop Music",style: TextStyle(
                             color: Colors.white,
-                            fontSize: 28.0
+                            fontSize: 21.0
                         ),),
                         color: Colors.deepOrange,
                       ),
@@ -58,7 +58,7 @@ class SearchScreen extends StatelessWidget {
                         padding: const EdgeInsets.symmetric(vertical: 12.0,horizontal: 12.0),
                         child: const Text("Rock",style: TextStyle(
                             color: Colors.white,
-                            fontSize: 28.0
+                            fontSize: 21.0
                         ),),
                         color: Colors.deepPurple,
                       ),
@@ -69,7 +69,7 @@ class SearchScreen extends StatelessWidget {
                         padding: const EdgeInsets.symmetric(vertical: 12.0,horizontal: 12.0),
                         child: const Text("Hip Hop",style: TextStyle(
                             color: Colors.white,
-                            fontSize: 28.0
+                            fontSize: 21.0
                         ),),
                         color: Colors.blueAccent,
                       ),
@@ -80,7 +80,7 @@ class SearchScreen extends StatelessWidget {
                         padding: const EdgeInsets.symmetric(vertical: 12.0,horizontal: 12.0),
                         child: const Text("Jazz",style: TextStyle(
                             color: Colors.white,
-                            fontSize: 28.0
+                            fontSize: 21.0
                         ),),
                         color: Colors.amber,
                       ),
@@ -91,7 +91,7 @@ class SearchScreen extends StatelessWidget {
                         padding: const EdgeInsets.symmetric(vertical: 12.0,horizontal: 12.0),
                         child: const Text("House",style: TextStyle(
                             color: Colors.white,
-                            fontSize: 28.0
+                            fontSize: 21.0
                         ),),
                         color: Colors.green,
                       ),
@@ -102,7 +102,7 @@ class SearchScreen extends StatelessWidget {
                         padding: const EdgeInsets.symmetric(vertical: 12.0,horizontal: 12.0),
                         child: const Text("Reggae",style: TextStyle(
                             color: Colors.white,
-                            fontSize: 28.0
+                            fontSize: 21.0
                         ),),
                         color: Colors.red,
                       ),

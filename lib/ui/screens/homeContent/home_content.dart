@@ -32,6 +32,7 @@ class HomeContent extends StatelessWidget {
             Expanded(
               child: ListView(
                 scrollDirection: Axis.horizontal,
+                physics: BouncingScrollPhysics(),
                 children: <Widget>[
                   AlbumWidget(coverUrl:CoverList[0], coverName:"CoverName" ,singerName:"SingerName" ,),
                   SizedBox(width: 28.0,),
@@ -58,6 +59,7 @@ class HomeContent extends StatelessWidget {
             Expanded(
               child: ListView(
                 scrollDirection: Axis.horizontal,
+                physics: BouncingScrollPhysics(),
                 children: <Widget>[
                   AlbumWidget(coverUrl:CoverList[3], coverName:"CoverName" ,singerName:"SingerName" ,),
                   SizedBox(width: 28.0,),

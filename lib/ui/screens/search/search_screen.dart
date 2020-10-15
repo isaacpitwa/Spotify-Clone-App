@@ -19,16 +19,16 @@ class SearchScreen extends StatelessWidget {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.all(18.0),
+                padding: const EdgeInsets.all(16.0),
                 child: TextField(
                   textAlign: TextAlign.center,
                   decoration: InputDecoration(
                     fillColor: Colors.white,
-
                     prefixIcon: Icon(Icons.search,color: Colors.black,size: 28.0,),
                     filled: true,
                     border: InputBorder.none,
                     hintText: "Find your music",
+
                   ),
                 ),
               ),

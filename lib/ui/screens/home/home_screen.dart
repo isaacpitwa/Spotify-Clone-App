@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:witslearn/ui/util/styles.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -33,7 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   "Home",
                   style: TextStyle(color: Colors.white),
                 ),
-                backgroundColor: Color.fromARGB(255, 20, 20, 20),
+                backgroundColor:backgroundColor,
               ),
               BottomNavigationBarItem(
                 icon: Icon(
@@ -44,7 +45,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   "Search",
                   style: TextStyle(color: Colors.white),
                 ),
-                backgroundColor: Color.fromARGB(255, 20, 20, 20),
+                backgroundColor: backgroundColor,
               ),
               BottomNavigationBarItem(
                 icon: Icon(
@@ -55,7 +56,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   "Music Library",
                   style: TextStyle(color: Colors.white),
                 ),
-                backgroundColor: Color.fromARGB(255, 20, 20, 20),
+                backgroundColor: backgroundColor,
               ),
               BottomNavigationBarItem(
                 icon: Icon(
@@ -66,7 +67,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   "Your Account",
                   style: TextStyle(color: Colors.white),
                 ),
-                backgroundColor: Color.fromARGB(255, 20, 20, 20),
+                  backgroundColor: backgroundColor,
               ),
 
             ],

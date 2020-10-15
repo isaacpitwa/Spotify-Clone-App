@@ -26,7 +26,7 @@ class AlbumWidget extends StatelessWidget {
               style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.w800,
-                  fontSize: 22.0
+                  fontSize: 18.0
               ),
             ),
             SizedBox(height: 8.0,),
@@ -35,7 +35,7 @@ class AlbumWidget extends StatelessWidget {
               style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.w300,
-                  fontSize: 18.0
+                  fontSize: 14.0
               ),
             ),
           ],

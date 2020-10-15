@@ -23,7 +23,7 @@ class HomeContent extends StatelessWidget {
               "Recommended for you",
               style: TextStyle(
                   color: Colors.white,
-                  fontSize: 28.0
+                  fontSize: 21.0
               ),
             ),
             SizedBox(
@@ -50,7 +50,7 @@ class HomeContent extends StatelessWidget {
               "New Music",
               style: TextStyle(
                   color: Colors.white,
-                  fontSize: 28.0
+                  fontSize: 21.0
               ),
             ),
             SizedBox(

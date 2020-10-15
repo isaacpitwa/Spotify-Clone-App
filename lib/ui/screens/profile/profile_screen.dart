@@ -19,7 +19,7 @@ class ProfileScreen extends StatelessWidget {
                 "Isaac Pitwa",
                 style: TextStyle(
                     color: Colors.white,
-                    fontSize: 28.0
+                    fontSize: 21.0
                 ),
               ),
               SizedBox(
@@ -32,12 +32,12 @@ class ProfileScreen extends StatelessWidget {
                       children: <Widget>[
                         Text("501",style: TextStyle(
                             color: Colors.white,
-                            fontSize: 35.0
+                            fontSize: 24.0
                         ),),
                         SizedBox(height: 5.0,),
                         Text("Music",style: TextStyle(
                             color: Colors.white,
-                            fontSize: 25.0,
+                            fontSize: 16.0,
                             fontWeight: FontWeight.w300
                         ),),
                       ],
@@ -48,12 +48,12 @@ class ProfileScreen extends StatelessWidget {
                       children: <Widget>[
                         Text("20.1K",style: TextStyle(
                             color: Colors.white,
-                            fontSize: 35.0
+                            fontSize: 24.0
                         ),),
                         SizedBox(height: 5.0,),
                         Text("Followers",style: TextStyle(
                             color: Colors.white,
-                            fontSize: 25.0,
+                            fontSize: 16.0,
                             fontWeight: FontWeight.w300
                         ),),
                       ],
@@ -64,12 +64,12 @@ class ProfileScreen extends StatelessWidget {
                       children: <Widget>[
                         Text("1.2k",style: TextStyle(
                             color: Colors.white,
-                            fontSize: 35.0
+                            fontSize: 24.0
                         ),),
                         SizedBox(height: 5.0,),
                         Text("Follow",style: TextStyle(
                             color: Colors.white,
-                            fontSize: 25.0,
+                            fontSize: 16.0,
                             fontWeight: FontWeight.w300
                         ),),
                       ],
@@ -82,16 +82,16 @@ class ProfileScreen extends StatelessWidget {
               ),
 
               Padding(
-                padding: EdgeInsets.all(22.0),
+                padding: EdgeInsets.all(18.0),
                 child: RaisedButton(
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(100.0),
                   ),
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 30.0,vertical: 18.0),
+                    padding: const EdgeInsets.symmetric(horizontal: 21.0,vertical: 14.0),
                     child: Text("Edit Profile", style: TextStyle(
                         color: Colors.white,
-                        fontSize: 22.0
+                        fontSize: 16.0
                     ),),
                   ),
                   color: Color(0xFF1DD860),

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:witslearn/ui/screens/homeContent/home_content.dart';
 import 'package:witslearn/ui/screens/playlist/playlist_screen.dart';
+import 'package:witslearn/ui/screens/profile/profile_screen.dart';
 import 'package:witslearn/ui/screens/search/search_screen.dart';
 import 'package:witslearn/ui/util/styles.dart';
 
@@ -15,7 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
     HomeContent(),
     SearchScreen(),
     PlaylistScreen(),
-    Text('Profile Page'),
+    ProfileScreen()
   ];
 
   @override
@@ -67,7 +68,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   color: Colors.white,
                 ),
                 title: Text(
-                  "Your Account",
+                  "Account",
                   style: TextStyle(color: Colors.white),
                 ),
                   backgroundColor: backgroundColor,

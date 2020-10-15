@@ -16,7 +16,7 @@ class ProfileScreen extends StatelessWidget {
                 height: 20.0,
               ),
               Text(
-                "Doctor Code",
+                "Isaac Pitwa",
                 style: TextStyle(
                     color: Colors.white,
                     fontSize: 28.0

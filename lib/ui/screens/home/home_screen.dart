@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:witslearn/ui/screens/homeContent/home_content.dart';
+import 'package:witslearn/ui/screens/playlist/playlist_screen.dart';
+import 'package:witslearn/ui/screens/profile/profile_screen.dart';
+import 'package:witslearn/ui/screens/search/search_screen.dart';
+import 'package:witslearn/ui/util/styles.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -8,10 +13,10 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   int _courentTab = 0;
   final tabs = [
-    Text('Home Page'),
-    Text('Search Page'),
-    Text('PlayList Page'),
-    Text('Profile Page'),
+    HomeContent(),
+    SearchScreen(),
+    PlaylistScreen(),
+    ProfileScreen()
   ];
 
   @override
@@ -33,7 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   "Home",
                   style: TextStyle(color: Colors.white),
                 ),
-                backgroundColor: Color.fromARGB(255, 20, 20, 20),
+                backgroundColor:backgroundColor,
               ),
               BottomNavigationBarItem(
                 icon: Icon(
@@ -44,7 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   "Search",
                   style: TextStyle(color: Colors.white),
                 ),
-                backgroundColor: Color.fromARGB(255, 20, 20, 20),
+                backgroundColor: backgroundColor,
               ),
               BottomNavigationBarItem(
                 icon: Icon(
@@ -55,7 +60,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   "Music Library",
                   style: TextStyle(color: Colors.white),
                 ),
-                backgroundColor: Color.fromARGB(255, 20, 20, 20),
+                backgroundColor: backgroundColor,
               ),
               BottomNavigationBarItem(
                 icon: Icon(
@@ -63,10 +68,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   color: Colors.white,
                 ),
                 title: Text(
-                  "Your Account",
+                  "Account",
                   style: TextStyle(color: Colors.white),
                 ),
-                backgroundColor: Color.fromARGB(255, 20, 20, 20),
+                  backgroundColor: backgroundColor,
               ),
 
             ],

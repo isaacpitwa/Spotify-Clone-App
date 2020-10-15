@@ -5,6 +5,9 @@ const _champFontColor = Color(0xff7f7f7f);
 const _readmoreColor = Color(0xffa9a9a9);
 
 
+const backgroundColor = Color.fromARGB(255, 20, 20, 20);
+
+
 const itcAvantGarde = 'ITC-Avant-Garde';
 const ttFirstNeue = 'TT-Firs-Neue';
 const verdana = 'verdana';

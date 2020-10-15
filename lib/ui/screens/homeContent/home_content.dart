@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:witslearn/ui/screens/album/album_widget.dart';
 
 class HomeContent extends StatelessWidget {
   List<String> CoverList =[
@@ -11,6 +12,62 @@ class HomeContent extends StatelessWidget {
   ];
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return  Container(
+      child: Padding(
+        padding: EdgeInsets.symmetric(vertical: 40.0,horizontal: 25.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: <Widget>[
+            Text(
+              "Recommended for you",
+              style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 28.0
+              ),
+            ),
+            SizedBox(
+              height: 20.0,
+            ),
+            Expanded(
+              child: ListView(
+                scrollDirection: Axis.horizontal,
+                children: <Widget>[
+                  AlbumWidget(coverUrl:CoverList[0], coverName:"CoverName" ,singerName:"SingerName" ,),
+                  SizedBox(width: 28.0,),
+                  AlbumWidget(coverUrl:CoverList[1], coverName:"CoverName" ,singerName:"SingerName" ,),
+                  SizedBox(width: 28.0,),
+                  AlbumWidget(coverUrl:CoverList[2], coverName:"CoverName" ,singerName:"SingerName" ,),
+                  SizedBox(width: 28.0,),
+                ],
+              ),
+            ),
+            Text(
+              "New Music",
+              style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 28.0
+              ),
+            ),
+            SizedBox(
+              height: 20.0,
+            ),
+            Expanded(
+              child: ListView(
+                scrollDirection: Axis.horizontal,
+                children: <Widget>[
+                  AlbumWidget(coverUrl:CoverList[3], coverName:"CoverName" ,singerName:"SingerName" ,),
+                  SizedBox(width: 28.0,),
+                  AlbumWidget(coverUrl:CoverList[4], coverName:"CoverName" ,singerName:"SingerName" ,),
+                  SizedBox(width: 28.0,),
+                  AlbumWidget(coverUrl:CoverList[5], coverName:"CoverName" ,singerName:"SingerName" ,),
+                  SizedBox(width: 28.0,),
+                ],
+              ),
+            )
+          ],
+        ),
+      ),
+    );;
   }
 }
